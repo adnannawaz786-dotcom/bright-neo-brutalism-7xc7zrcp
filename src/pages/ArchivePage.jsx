@@ -4,13 +4,7 @@ import { Archive, Trash2, RotateCcw } from 'lucide-react';
 import TaskList from '../components/TaskList';
 
 
-  const handleRestoreTask = (taskId) => {
-    restoreTask(taskId);
-  };
 
-  const handleDeleteTask = (taskId) => {
-    deleteTask(taskId);
-  };
 
   const pageVariants = {
     initial: { opacity: 0, y: 20 },
