@@ -2,10 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Archive, Trash2, RotateCcw } from 'lucide-react';
 import TaskList from '../components/TaskList';
-import { useTodoStore } from '../store/todoStore';
 
-const ArchivePage = () => {
-  const { archivedTasks, restoreTask, deleteTask } = useTodoStore();
 
   const handleRestoreTask = (taskId) => {
     restoreTask(taskId);
